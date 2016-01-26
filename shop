@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <html lang="ru">
+    <head>
+      <meta charset="utf-8">
+      <title>Барбершоп "Бородинский"</title>
+    </head>
+    <body>
+        <header class="main_header">
+          <div class="container">
+            <nav class="main_navigation">
+              <ul>
+                <li>
+                  <a href="#">Информация</a>
+                </li>
+                <li>
+                  <a href="#">Новости</a>
+                </li>
+                <li>
+                  <a href="#">Прайс-лист</a>
+                </li>
+                <li>
+                  <a href="#">Магазин</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+              <div class="user-block">
+                <a class="login" href="#">Вход</a>
+              </div>
+            </div>
+          </header>
+          <h1>Средства для ухода</h1>
+            <nav class="breadcrumbs">
+              <ul>
+                <li>
+                  <a href="#">Главная</a>
+                </li>
+                <li>
+                  <a href="#">Магазин</a>
+                </li>
+                <li>
+                  <a href=#>Средства для ухода</a>
+                </li>
+              </ul>
+            </nav>
+          <form action="#">
+            <p><b>Производители:</b></p><br>
+            <p class="maker"><input type="checkbox" id="check1" checked>
+               <label for="check1">Baxter of California</label><br>
+               <input type="checkbox" id="check2">
+               <label for="check2">Mr Natty</label><br>
+               <input type="checkbox" id="check3" checked>
+               <label for="check3">Suavecito</label><br>
+               <input type="checkbox" id=check4>
+               <label for="check4">Malin+Goetz</label><br>
+               <input type="checkbox" id=check5>
+               <label for="check5">Murray's</label><br>
+               <input type="checkbox" id="check6" checked>
+               <label for="check6">American crew</label></p>
+          </form>
+
+      </body>
+    </html>
